@@ -1,0 +1,226 @@
+/* Start Variables */
+:root {
+    --main-color: #19c8fa;
+    --transparent-color: rgb(15 116 143 / 70%);
+    --section-padding: 100px;
+  }
+  /* End Variables */
+  /* Start Global Rules */
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  span {
+    display: block;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #D63484;
+    position: relative;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+  ul {
+    list-style: none;
+  }
+  .window {
+    background-color: #fff;
+    height: 90%;
+    width: 80%;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+  }
+  .aside {
+    position: relative;
+    width: 20%;
+    height: 100%;
+    background-color: #ebf7f7;
+    border-right: 1px solid #eaeaea;
+  }
+  .aside .dots {
+    display: flex;
+    justify-content: space-between;
+  }
+  .color-dots {
+    width: auto;
+    height: auto;
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+  }
+  .aside .dots .color-dots span {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .aside .dots i {
+    color: #c2c1c1;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+  .aside .list ul {
+    color: #0B1215;
+  }
+  .aside .list ul {
+    padding: 50px 30px;
+  }
+  .aside .list .first_ul {
+    padding-bottom: 0;
+  }
+  .aside .list .secound_ul {
+    opacity: 70%;
+  }
+  .aside .list ul li  {
+    padding: 8px;
+    display: block;
+    }
+  .aside .list ul li a {
+    text-decoration: none;
+    color: #0B1215;
+  }
+  .aside .list ul li a:hover {
+    text-decoration: underline;
+  }
+  .aside .list ul li a i {
+    padding-right: 7px;
+  }
+  .window .task-section {
+    padding: 0 20px;
+    width: 50%;
+    height: 100%;
+    overflow-y: scroll;
+  }
+  h1 {
+    width: 100%;
+  }
+  .task-section ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 15px;
+    position: relative;
+  }
+  .task-section ul::before {
+    content: "";
+    position: absolute;
+    bottom: 14px;
+    right: 0;
+    height: 1px;
+    background-color: #c2c1c1;
+    width: 100%;
+  }
+  .task-section ul li {
+    padding: 30px 0;
+  }
+  .task-section ul .active {
+    color: green;
+    border-bottom: solid 3px green ;
+  }
+  .task-section .box {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+  }
+  .task-section .box p {
+    border-radius: 13px;
+    font-size: 15px;
+    padding: 6px;
+  }
+  .task-section .box .green {
+    color: green;
+    background-color: rgba(95, 234, 95, 0.629);
+  }
+  .task-section .box .violet {
+    color: rgb(147, 25, 147);
+    background-color: rgba(238, 130, 238, 0.563);
+  }
+  .task-section .box .red {
+    color: rgb(214, 19, 19);
+    background-color: rgba(232, 71, 71, 0.522);
+  }
+  .task-section  h2 {
+    padding: 20px 0;
+    font-size: 2em;
+  }
+  .task-section hr {
+    margin-bottom: 10px;
+  }
+  .task-section .box .grey {
+    color: grey;
+    background-color: rgba(204, 204, 204, 0.345);
+  }
+  .schedule-section {
+    width: 30%;
+    overflow: scroll;
+  }
+  .schedule-section .info {
+   display: flex;
+   justify-content: flex-end;
+   padding: 20px;
+   align-items: center;
+  }
+  .schedule-section .info i {
+    margin-right: 10px;
+  }
+  .schedule-section .info div {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(79, 22, 108);
+    border-radius: 50%;
+    color: #fff;
+    font-size: 14px;
+  }
+  .schedule-section p {
+    padding: 14px;
+    font-size: 22px;
+  }
+  .schedule-section .boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+  }
+  .schedule-section .boxes .box {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 15px;
+  }
+  .schedule-section .box .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .schedule-section .box .info span,
+  .schedule-section .box  i
+    {
+    opacity: 50%;
+  }
+  .schedule-section .boxes .yellow {
+    background-color: rgba(239, 239, 57, 0.668);
+  }
+  .schedule-section .boxes .blue {
+    background-color: rgba(58, 166, 225, 0.626);
+  }
+  .schedule-section .boxes .red {
+    background-color: rgba(232, 71, 71, 0.522);
+  }
+  .schedule-section .boxes .green {
+    background-color: rgba(95, 234, 95, 0.629);
+  }
+
+  
+
