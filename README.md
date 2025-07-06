@@ -1,6 +1,6 @@
 # Static Task Management Dashboard
 
-A clean and responsive static dashboard UI for task management, built entirely with HTML and CSS. Designed to showcase layout skills and front-end structure without any JavaScript.
+A clean and static static dashboard UI for task management, built entirely with HTML and CSS. Designed to showcase layout skills and front-end structure without any JavaScript.
 
 ## 🧩 Features
 - Static dashboard layout (no JS)
